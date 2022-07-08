@@ -1,0 +1,54 @@
+server:
+  port: 8888
+  httpPort: 80
+  ssl: #1命令生成证书，2.证书SSL
+    key-store: classpath:other/yuer-ssl-key.p12
+    key-store-password: 123456
+    key-store-type: PKCS12
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+    view: #jsp模板用的
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+    favicon:
+      enabled: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/springmvc?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: ENC(sneSkCJiSsNEXcN3MV8ffA==)
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  freemarker: #freemarker模板引擎使用的
+    cache: false  #缓存开发阶段一般不启用缓存，生成环境变成true
+    suffix: .ftl  #模板文件后缀
+    charset: utf-8 #编码
+    template-loader-path: classpath:/templates #指定到哪个位置加载模板
+  thymeleaf: #thymeleaf模板引擎使用的
+    cache: false #缓存开发阶段一般不启用缓存，生成环境变成true
+    check-template-location: true #检查模板是否存在
+    encoding: UTF-8
+    excluded-view-names: #排除视图名称列表
+    mode: HTML5 #模板类型
+    prefix: classpath:/templates/ #模板存放位置
+    suffix: .html #模板后缀
+  web:
+    resources:
+      static-locations: classpath:/static/
+logging:
+  level:
+    cn.tangue.templateenginee.mapper: debug
+jasypt:
+  encryptor:
+    password: 123456
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: cn.tangue.templateenginee.model
+#注册自定义监听器方式3
+context:
+  listener:
+    classes: cn.tangue.templateenginee.config.event.MyListener3

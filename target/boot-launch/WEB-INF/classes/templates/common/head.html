@@ -1,0 +1,18 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head id="refbyid" th:fragment="static(title)">
+    <meta charset="UTF-8">
+    <title th:text="${title}"></title>
+    <!--f12能看到外部资源的版本号，容易被攻击-->
+    <!--<link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">-->
+    <!--看不到版本号安全-->
+    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+    <style type="text/css">
+        .odd {
+            background-color: burlywood;
+        }
+
+        .even {
+            background-color: aquamarine;
+        }
+    </style>
+</head>

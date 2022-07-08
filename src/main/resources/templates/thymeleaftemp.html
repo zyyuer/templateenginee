@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--引用1-->
+<!--<div th:replace="common/head::static('代码片段Head')"></div>-->
+<!--引用2通过片段id应用-->
+<div th:replace="common/head::#refbyid('代码片段byid1')"></div>
+<body>
+<div class="container">
+    <table class="table">
+        <tr>
+            <td>index</td>
+            <td>count</td>
+            <td>作者</td>
+            <td>教程名称</td>
+            <td>内容</td>
+            <td>时间</td>
+        </tr>
+
+        <tr th:each="item,stat : ${articles}"
+            th:class="${stat.even}?'even':'odd'" t>
+
+
+            <td th:text="${stat.index}"></td>
+            <td th:text="${stat.count}"></td>
+            <td th:text="${#strings.capitalizeWords(item.author)}"></td>
+            <td th:text="${item.title}"></td>
+            <td th:text="${item.content}"></td>
+            <td th:text="${#dates.format(item.createTime,'yyyy-MM-dd HH:mm:ss')}"></td>
+        </tr>
+    </table>
+
+    <h1>ThymeLeaf内置对象</h1>
+    <br/>语言国家： <span th:text="${#locale.getLanguage() + '_' + #locale.getCountry()}"></span>
+    <br/>param： <span th:text="${param.name1}"></span>
+    <br/>request： <span th:text="${name2}"></span>
+    <br/>session： <span th:text="${session.name3}"></span>
+    <br/>application：<span th:text="${application.name4}"></span>
+    <br/>session包含name3属性么（如不包含显示zoo）：<span th:text="${session.name3}?:('zoo')"></span>
+    <br/>session包含属性数量：<span th:text="${session.size()}"></span>
+    <br/>session是空的么：<span th:text="${session.isEmpty()}"></span>
+
+    <!--<div th:text="${articles[1].author}"></div>
+    <form id="articleForm">
+        <input id="id" name="id" th:value="${articles[0].id}">
+        <input id="author" name="author" th:value="${articles[0].author}">
+        <input id="content" name="content" th:value="${articles[0].content}">
+    </form>
+    <div th:text="${articles[1].author}"></div>
+    <div th:text="${'I am '+(articles[0].author!=null?articles[0].author:'Noboday')}"></div>
+    <form id="articleForm1" th:object="${articles[5]}">
+        <input id="id1" name="id" th:value="*{id}"/>
+        <input id="author1" name="author" th:value="*{author}"/>
+        <input id="content1" name="content" th:value="*{content}"/>
+    </form>-->
+    <div th:if="!${articles}">
+        <div>文章内容存在</div>
+    </div>
+    <script th:inline="javascript">
+        let LANG_COUNTRY=[[${#locale.getLanguage()+'_'+#locale.getCountry()}]]
+    </script>
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <!--<script th:src="@{/webjars/jquery/jquery.min.js}"></script>-->
+    <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+</div>
+
+</body>
+</html>
