@@ -14,8 +14,6 @@ spring:
     view: #jsp模板用的
       suffix: .jsp
       prefix: /WEB-INF/jsp/
-    favicon:
-#      enabled: false
   datasource:
     url: jdbc:mysql://localhost:3306/springmvc?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
