@@ -5,13 +5,14 @@
   Time: 14:18
   To change this template use File | Settings | File Templates.
 --%>
+<%--/boot-launch 正式发布时候使用这个--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>Xbox</title>
-    <link rel="shortcut icon" href="/boot-launch/favicon.ico">
-    <link rel="stylesheet" href="/boot-launch/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="${contextPath}/favicon.ico">
+    <link rel="stylesheet" href="${contextPath}/css/bootstrap.min.css">
 </head>
 <body>
 <table class="table">
@@ -28,9 +29,9 @@
         </tr>
     </c:forEach>
 </table>
-<img src="/boot-launch/image/xbox.png"/>
-<script src="/boot-launch/js/jquery.min.js"></script>
-<script src="/boot-launch/js/bootstrap.min.js"></script>
+<img src="${contextPath}/image/xbox.png"/>
+<script src="${contextPath}/js/jquery.min.js"></script>
+<script src="${contextPath}/js/bootstrap.min.js"></script>
 
 </body>
 </html>

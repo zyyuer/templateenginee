@@ -5,6 +5,8 @@ server:
     key-store: classpath:other/yuer-ssl-key.p12
     key-store-password: 123456
     key-store-type: PKCS12
+  servlet:
+    context-path: /boot-launch
 spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss

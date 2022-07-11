@@ -3,7 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="1b9cdc06-00b9-4783-8046-9e7f314d542e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tangue/templateenginee/controller/TemplateJspController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tangue/templateenginee/controller/TemplateJspController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jsptemp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jsptemp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-launch.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/boot-launch.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-launch.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/boot-launch.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/cn/tangue/templateenginee/AjaxResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/cn/tangue/templateenginee/controller/ArticleRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/cn/tangue/templateenginee/controller/ArticleRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/cn/tangue/templateenginee/controller/ListenerTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/cn/tangue/templateenginee/controller/ListenerTestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/cn/tangue/templateenginee/controller/TemplateFreemarkerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/cn/tangue/templateenginee/controller/TemplateFreemarkerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/cn/tangue/templateenginee/controller/TemplateJspController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/cn/tangue/templateenginee/controller/TemplateJspController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/cn/tangue/templateenginee/model/ArticleVO$ArticleVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/cn/tangue/templateenginee/model/ArticleVO$ArticleVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/cn/tangue/templateenginee/model/ArticleVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/boot-launch/WEB-INF/classes/cn/tangue/templateenginee/model/ArticleVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boot-launch/WEB-INF/jsp/jsptemp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/boot-launch/WEB-INF/jsp/jsptemp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/templateenginee.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/c-1_0-rt.tld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/c-1_0.tld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/c.tld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/jsp/jsptemp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/jsp/jsptemp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tangue/templateenginee/controller/TemplateJspController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tangue/templateenginee/controller/TemplateJspController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2022-07-07T14-47-19_521-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.tangue.templateenginee.TemplateengineeApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.tangue.templateenginee.TemplateengineeApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cn.tangue.templateenginee.TemplateengineeApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cn.tangue.templateenginee.TemplateengineeApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +249,8 @@
       <workItem from="1656991603111" duration="16682000" />
       <workItem from="1657071071974" duration="18300000" />
       <workItem from="1657157230156" duration="20786000" />
-      <workItem from="1657245780861" duration="18101000" />
+      <workItem from="1657245780861" duration="18612000" />
+      <workItem from="1657521686294" duration="2324000" />
     </task>
     <task id="LOCAL-00001" summary="演示模板的渲染，通用异常类维护，https调整等">
       <created>1657270194912</created>
@@ -233,7 +259,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657270194912</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="删除了favicon: false">
+      <created>1657270640256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657270640256</updated>
+    </task>
+    <task id="LOCAL-00003" summary="删除了favicon: false">
+      <created>1657270704529</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657270704530</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +282,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="演示模板的渲染，通用异常类维护" />
     <MESSAGE value="演示模板的渲染，通用异常类维护，https调整等" />
-    <option name="LAST_COMMIT_MESSAGE" value="演示模板的渲染，通用异常类维护，https调整等" />
+    <MESSAGE value="删除了favicon: false" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除了favicon: false" />
   </component>
   <component name="WindowStateProjectService">
     <state x="192" y="21" width="1174" height="692" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1657174732130">
@@ -265,10 +306,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1656997064616" />
-    <state x="183" y="0" key="CommitChangelistDialog2" timestamp="1657270639305">
+    <state x="183" y="0" key="CommitChangelistDialog2" timestamp="1657270703615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="183" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1657270639305" />
+    <state x="183" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1657270703615" />
     <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1657269843851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -281,65 +322,69 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="532" y="256" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1657270307776" />
-    <state width="1306" height="98" key="GridCell.Tab.0.bottom" timestamp="1657270218562">
+    <state width="1322" height="241" key="GridCell.Tab.0.bottom" timestamp="1657523788613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="98" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1657270218562" />
-    <state width="1306" height="98" key="GridCell.Tab.0.center" timestamp="1657270218561">
+    <state width="1322" height="241" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1657523788613" />
+    <state width="1322" height="241" key="GridCell.Tab.0.center" timestamp="1657523788613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="98" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1657270218561" />
-    <state width="1306" height="98" key="GridCell.Tab.0.left" timestamp="1657270218561">
+    <state width="1322" height="241" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1657523788613" />
+    <state width="1322" height="241" key="GridCell.Tab.0.left" timestamp="1657523788612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="98" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1657270218561" />
-    <state width="1306" height="98" key="GridCell.Tab.0.right" timestamp="1657270218561">
+    <state width="1322" height="241" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1657523788612" />
+    <state width="1322" height="241" key="GridCell.Tab.0.right" timestamp="1657523788613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="98" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1657270218561" />
-    <state width="1306" height="98" key="GridCell.Tab.1.bottom" timestamp="1657270218563">
+    <state width="1322" height="241" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1657523788613" />
+    <state width="1322" height="116" key="GridCell.Tab.1.bottom" timestamp="1657523788572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="98" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1657270218563" />
-    <state width="1306" height="98" key="GridCell.Tab.1.center" timestamp="1657270218562">
+    <state width="1322" height="116" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1657523788572" />
+    <state width="1322" height="116" key="GridCell.Tab.1.center" timestamp="1657523788568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="98" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1657270218562" />
-    <state width="1306" height="98" key="GridCell.Tab.1.left" timestamp="1657270218562">
+    <state width="1322" height="116" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1657523788568" />
+    <state width="1322" height="116" key="GridCell.Tab.1.left" timestamp="1657523788568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="98" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1657270218562" />
-    <state width="1306" height="98" key="GridCell.Tab.1.right" timestamp="1657270218562">
+    <state width="1322" height="116" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1657523788568" />
+    <state width="1322" height="116" key="GridCell.Tab.1.right" timestamp="1657523788568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="98" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1657270218562" />
-    <state width="1306" height="114" key="GridCell.Tab.2.bottom" timestamp="1657270123688">
+    <state width="1322" height="116" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1657523788568" />
+    <state width="1306" height="114" key="GridCell.Tab.2.bottom" timestamp="1657271046881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="114" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1657270123688" />
-    <state width="1306" height="114" key="GridCell.Tab.2.center" timestamp="1657270123688">
+    <state width="1306" height="114" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1657271046881" />
+    <state width="1306" height="114" key="GridCell.Tab.2.center" timestamp="1657271046880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="114" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1657270123688" />
-    <state width="1306" height="114" key="GridCell.Tab.2.left" timestamp="1657270123688">
+    <state width="1306" height="114" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1657271046880" />
+    <state width="1306" height="114" key="GridCell.Tab.2.left" timestamp="1657271046880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="114" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1657270123688" />
-    <state width="1306" height="114" key="GridCell.Tab.2.right" timestamp="1657270123688">
+    <state width="1306" height="114" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1657271046880" />
+    <state width="1306" height="114" key="GridCell.Tab.2.right" timestamp="1657271046881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="114" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1657270123688" />
+    <state width="1306" height="114" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1657271046881" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1657268243800">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1657268243800" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1657270713181">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1657270713181" />
     <state x="482" y="140" key="chooseDestDirectoryDialog" timestamp="1656998122119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="482" y="140" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1656998122119" />
-    <state x="339" y="6" width="672" height="676" key="search.everywhere.popup" timestamp="1656999617812">
+    <state x="339" y="6" width="672" height="676" key="search.everywhere.popup" timestamp="1657521975703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="6" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1656999617812" />
+    <state x="339" y="6" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1657521975703" />
   </component>
 </project>

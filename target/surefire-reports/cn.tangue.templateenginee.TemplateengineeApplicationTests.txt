@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cn.tangue.templateenginee.TemplateengineeApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.999 s - in cn.tangue.templateenginee.TemplateengineeApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.376 s - in cn.tangue.templateenginee.TemplateengineeApplicationTests

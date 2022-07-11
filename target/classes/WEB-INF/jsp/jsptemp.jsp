@@ -11,8 +11,8 @@
 <html>
 <head>
     <title>Xbox</title>
-    <link rel="shortcut icon" href="/boot-launch/favicon.ico">
-    <link rel="stylesheet" href="/boot-launch/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="${contextPath}/favicon.ico">
+    <link rel="stylesheet" href="${contextPath}/css/bootstrap.min.css">
 </head>
 <body>
 <table class="table">
@@ -29,9 +29,9 @@
         </tr>
     </c:forEach>
 </table>
-<img src="/boot-launch/image/xbox.png"/>
-<script src="/boot-launch/js/jquery.min.js"></script>
-<script src="/boot-launch/js/bootstrap.min.js"></script>
+<img src="${contextPath}/image/xbox.png"/>
+<script src="${contextPath}/js/jquery.min.js"></script>
+<script src="${contextPath}/js/bootstrap.min.js"></script>
 
 </body>
 </html>
