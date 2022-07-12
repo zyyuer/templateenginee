@@ -13,11 +13,13 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 //统一status状态码
 //再数据返回前段之前做最后一步处理 AjaxResponse
 @Component
+//@ControllerAdvice(annotations = ResponseResult.class)
 @ControllerAdvice
 public class GlobalResponseAdvice implements ResponseBodyAdvice {
     @Override
     public boolean supports(MethodParameter methodParameter, Class aClass) {
-        return true;
+        //return !methodParameter.getDeclaringClass().getName().contains("springfox");
+        return false;
     }
 
     @Override
